@@ -37,7 +37,7 @@ jobs:
           claude_args: |
             --allowedTools "Read,Write,Bash"
 
-		- name: Commit results
+      - name: Commit results
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
