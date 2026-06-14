@@ -1,0 +1,12 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# 環境変数・認証情報(必ずGitHub Secretsを使用し、ここには置かない)
+.env
+.env.local
+*.key
+
+# ローカル実行時の一時ファイル
+*.log
