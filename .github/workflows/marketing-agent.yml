@@ -14,6 +14,7 @@ on:
 
 permissions:
   contents: write
+  id-token: write
 
 jobs:
   run-ai-employee:
@@ -29,10 +30,12 @@ jobs:
           # 動作確認用のシンプルな指示。
           # ステップ2で「analytics-agent → strategy-agent → content-writer-agent
           # → scheduler-agent」の順に実行する具体的な指示に置き換えます。
-          direct_prompt: |
+          prompt: |
             CLAUDE.md の方針に従って、リポジトリの構成(.claude/agents/ 配下の
             各サブエージェント設定を含む)が正しく認識できるか確認し、
             実行結果を簡単なテキストで data/reports/setup-check.md に出力してください。
+          claude_args: |
+            --allowedTools "Read,Write,Bash"
 
       - name: Commit results
         run: |
