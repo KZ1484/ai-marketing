@@ -12,28 +12,12 @@ Webサイト(GA4)と各SNS(Meta Insights, X Analytics, LinkedIn Analytics)のデ
 
 ## 入力
 
-- `data/analytics/YYYY-MM-DD-ga4.json`: GA4データ取得スクリプト(`scripts/fetch-ga4.js`)が
-  出力する直近7日間のデータ。形式は以下の通り。
-
-  ```json
-  {
-    "fetched_at": "2026-06-15T00:00:00.000Z",
-    "date_range": { "start": "7daysAgo", "end": "today" },
-    "site_totals": { "sessions": 0, "activeUsers": 0, "screenPageViews": 0 },
-    "top_pages": [
-      { "pagePath": "/blog/xxx", "sessions": 0, "screenPageViews": 0, "activeUsers": 0 }
-    ]
-  }
-  ```
-
-- `data/analytics/` 配下のその他のチャネル(Meta Insights, X Analytics, LinkedIn Analyticsなど)の
-  エクスポートデータ(CSV/JSONなど、連携が整ったチャネルから順次追加)
+- `data/analytics/` 配下に保存されている各チャネルのエクスポートデータ(CSV/JSONなど)
 - `data/reports/` 配下の直近のレポート(前週比較のため)
 
-> 補足: GA4データは `scripts/fetch-ga4.js` により自動取得されるが、取得に失敗した場合や
-> `data/analytics/` にファイルが無い場合は「データ未取得」と明記し、処理を止めずに
-> レポートのフォーマットだけ作成してよい。GA4以外のチャネル(SNS等)は連携準備中のため、
-> 現時点では同様に「データ未取得」として扱う。
+> 補足: 初期フェーズではAPI連携前のため、`data/analytics/` が空、または手動で配置したサンプル
+> データのみの場合がある。データが無い場合は「データ未取得」と明記し、処理を止めずに
+> レポートのフォーマットだけ作成してよい。
 
 ## 処理内容
 

@@ -1,7 +1,7 @@
 name: marketing-agent
 
-# ステップ1では「動作確認用の雛形」として配置します。
-# 本番運用のスケジュール・プロンプト内容はステップ2で調整します。
+# ステップ2: GA4データ取得 → 分析 → 戦略案 → 原稿作成(ブログ等)までを自動化する。
+# 配信(scheduler-agent)はステップ3で追加する。
 
 on:
   # 手動実行用(Actionsタブから "Run workflow" で実行確認できる)
@@ -23,17 +23,53 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Fetch GA4 data
+        env:
+          GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
+          GA4_SERVICE_ACCOUNT_KEY_B64: ${{ secrets.GA4_SERVICE_ACCOUNT_KEY_B64 }}
+        run: |
+          echo "$GA4_SERVICE_ACCOUNT_KEY_B64" | base64 -d > /tmp/ga4-key.json
+          export GOOGLE_APPLICATION_CREDENTIALS=/tmp/ga4-key.json
+          npm run fetch-ga4
+        # GA4取得に失敗してもワークフロー全体は止めない
+        # (analytics-agentが「データ未取得」として処理を続行する)
+        continue-on-error: true
+
+      - name: Remove GA4 credentials file
+        if: always()
+        run: rm -f /tmp/ga4-key.json
+
       - name: Run Claude Code (marketing agent)
         uses: anthropics/claude-code-action@v1
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
-          # 動作確認用のシンプルな指示。
-          # ステップ2で「analytics-agent → strategy-agent → content-writer-agent
-          # → scheduler-agent」の順に実行する具体的な指示に置き換えます。
           prompt: |
-            CLAUDE.md の方針に従って、リポジトリの構成(.claude/agents/ 配下の
-            各サブエージェント設定を含む)が正しく認識できるか確認し、
-            実行結果を簡単なテキストで data/reports/setup-check.md に出力してください。
+            CLAUDE.md の方針と、.claude/agents/ 配下の各サブエージェント設定に従って、
+            以下の順序で今週分の処理を実行してください。
+
+            1. analytics-agent の設定に従い、data/analytics/ 配下にある最新のGA4データ
+               (YYYY-MM-DD-ga4.json)を確認し、data/reports/YYYY-MM-DD-analytics-summary.md
+               を作成してください。
+               - GA4データが見つからない場合は「データ未取得」と明記し、その他のSNSデータも
+                 同様に「データ未取得」として処理を続けてください。
+
+            2. strategy-agent の設定に従い、上記の分析サマリーを元に
+               data/reports/YYYY-MM-DD-strategy.md を作成してください。
+
+            3. content-writer-agent の設定に従い、上記の戦略案のうち
+               「ブログ/Webサイト」向けの依頼内容に基づいて、
+               content/blog/YYYY-MM-DD-<タイトル概要>.md を1件作成してください。
+               (今回はブログ記事のみとし、他媒体は次のステップで対応します)
+
+            日付(YYYY-MM-DD)は実行日の日付を使用してください。
           claude_args: |
             --allowedTools "Read,Write,Bash"
 
@@ -45,5 +81,5 @@ jobs:
           git config user.email "ai-marketing-bot@users.noreply.github.com"
           git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
           git add data/ content/ || true
-          git diff --cached --quiet || git commit -m "chore: AI社員の実行結果を更新"
+          git diff --cached --quiet || git commit -m "chore: AI社員の実行結果を更新(分析・戦略・原稿)"
           git push

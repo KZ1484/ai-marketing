@@ -1,0 +1,12 @@
+{
+  "name": "ai-marketing",
+  "private": true,
+  "version": "1.0.0",
+  "description": "GitHub Actions + Claude Code で構築するデジタルマーケティング担当AI社員",
+  "scripts": {
+    "fetch-ga4": "node scripts/fetch-ga4.js"
+  },
+  "dependencies": {
+    "@google-analytics/data": "^4.10.0"
+  }
+}
