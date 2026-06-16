@@ -1,0 +1,134 @@
+{
+  "fetched_at": "2026-06-16T12:57:19.673Z",
+  "date_range": {
+    "start": "7daysAgo",
+    "end": "today"
+  },
+  "site_totals": {
+    "sessions": 133,
+    "activeUsers": 101,
+    "screenPageViews": 152
+  },
+  "top_pages": [
+    {
+      "pagePath": "/cara-membuat-appsheet-lebih-aman-untuk-digunakan-banyak-user/",
+      "sessions": 13,
+      "screenPageViews": 20,
+      "activeUsers": 2
+    },
+    {
+      "pagePath": "/",
+      "sessions": 9,
+      "screenPageViews": 9,
+      "activeUsers": 8
+    },
+    {
+      "pagePath": "/ja/appsheet-ambil-foto-dari-kamera-atau-galeri/",
+      "sessions": 8,
+      "screenPageViews": 9,
+      "activeUsers": 8
+    },
+    {
+      "pagePath": "/berapa-banyak-data-yang-bisa-ditangani-appsheet/",
+      "sessions": 8,
+      "screenPageViews": 8,
+      "activeUsers": 7
+    },
+    {
+      "pagePath": "/404/",
+      "sessions": 6,
+      "screenPageViews": 6,
+      "activeUsers": 2
+    },
+    {
+      "pagePath": "/berapa-biaya-sebenarnya-menggunakan-appsheet-untuk-perusahaan/",
+      "sessions": 6,
+      "screenPageViews": 6,
+      "activeUsers": 6
+    },
+    {
+      "pagePath": "/menampilkan-data-dinamis-dropdown-di-excel/",
+      "sessions": 6,
+      "screenPageViews": 6,
+      "activeUsers": 6
+    },
+    {
+      "pagePath": "/ja/grafik-laporan-canggih-dari-appsheet/",
+      "sessions": 8,
+      "screenPageViews": 5,
+      "activeUsers": 5
+    },
+    {
+      "pagePath": "/kesalahan-terbesar-saat-membuat-appsheet/",
+      "sessions": 6,
+      "screenPageViews": 5,
+      "activeUsers": 4
+    },
+    {
+      "pagePath": "/ja/tips-membuat-aplikasi-stok-barang-dengan-appsheet/",
+      "sessions": 4,
+      "screenPageViews": 4,
+      "activeUsers": 4
+    },
+    {
+      "pagePath": "/mengatasi-masalah-sync-timeout-di-appsheet/",
+      "sessions": 4,
+      "screenPageViews": 4,
+      "activeUsers": 3
+    },
+    {
+      "pagePath": "/menghubungkan-appsheet-ke-whatsapp-gateway/",
+      "sessions": 4,
+      "screenPageViews": 4,
+      "activeUsers": 4
+    },
+    {
+      "pagePath": "/apakah-appsheet-gratis-bisa-menampung-lebih-dari-1-000-baris-data/",
+      "sessions": 4,
+      "screenPageViews": 3,
+      "activeUsers": 2
+    },
+    {
+      "pagePath": "/ja/membuat-aplikasi-mudah-dari-spreadsheet-ke-appsheet/",
+      "sessions": 4,
+      "screenPageViews": 3,
+      "activeUsers": 3
+    },
+    {
+      "pagePath": "/tutorial-appsheet-membuat-notifikasi-email-whatsapp-otomatis/",
+      "sessions": 4,
+      "screenPageViews": 3,
+      "activeUsers": 2
+    },
+    {
+      "pagePath": "/ja/membuat-akun-google-dengan-alamat-email-organisasi-atau-perusahaan/",
+      "sessions": 3,
+      "screenPageViews": 3,
+      "activeUsers": 3
+    },
+    {
+      "pagePath": "/ja/membuat-fitur-login-di-appsheet/",
+      "sessions": 2,
+      "screenPageViews": 3,
+      "activeUsers": 2
+    },
+    {
+      "pagePath": "/ja/about-us/",
+      "sessions": 1,
+      "screenPageViews": 3,
+      "activeUsers": 1
+    },
+    {
+      "pagePath": "/input-otomatis-dari-ai-langsung-ke-google-sheet/",
+      "sessions": 3,
+      "screenPageViews": 2,
+      "activeUsers": 2
+    },
+    {
+      "pagePath": "/ja/sistem-update-berbayar-di-appsheet/",
+      "sessions": 3,
+      "screenPageViews": 2,
+      "activeUsers": 2
+    }
+  ]
+}
