@@ -1,7 +1,7 @@
 name: marketing-agent
 
-# ステップ2: GA4データ取得 → 分析 → 戦略案 → 原稿作成(ブログ等)までを自動化する。
-# 配信(scheduler-agent)はステップ3で追加する。
+# ステップ3: GA4データ取得 → 分析 → 戦略案 → 全媒体の原稿作成 → 配信チェックリスト作成 までを自動化する。
+# 実投稿・配信は人が確認・承認した後に人が実行する(CLAUDE.mdの安全ルール参照)。
 
 on:
   # 手動実行用(Actionsタブから "Run workflow" で実行確認できる)
@@ -64,10 +64,21 @@ jobs:
             2. strategy-agent の設定に従い、上記の分析サマリーを元に
                data/reports/YYYY-MM-DD-strategy.md を作成してください。
 
-            3. content-writer-agent の設定に従い、上記の戦略案のうち
-               「ブログ/Webサイト」向けの依頼内容に基づいて、
-               content/blog/YYYY-MM-DD-<タイトル概要>.md を1件作成してください。
-               (今回はブログ記事のみとし、他媒体は次のステップで対応します)
+            3. content-writer-agent の設定に従い、上記の戦略案に基づいて原稿を作成してください。
+               - まず「ブログ/Webサイト」向けの記事を
+                 content/blog/YYYY-MM-DD-<タイトル概要>.md として1件作成する。
+               - 続いて、そのブログ記事の内容を踏まえつつ、戦略案で指示された配分に従って
+                 X / LinkedIn / Instagram / Facebook 向けの原稿を、それぞれ
+                 content/<媒体>/YYYY-MM-DD-<内容概要>.md として作成する
+                 (各媒体のトーン・文字数の目安は content-writer-agent.md を参照)。
+               - WhatsApp Business向けの個別フォローメッセージは、現時点では送信対象の
+                 リード情報が無いため作成不要。スキップしてよい。
+
+            4. scheduler-agent の設定に従い、今回作成した全ての原稿(ブログ・X・LinkedIn・
+               Instagram・Facebookの content/ 配下のファイル)を一覧化した
+               data/reports/YYYY-MM-DD-publish-checklist.md を作成してください。
+               - 自動投稿は行わず、あくまで「人が確認するためのチェックリスト」を
+                 作成するところまでとしてください。
 
             日付(YYYY-MM-DD)は実行日の日付を使用してください。
           claude_args: |
@@ -81,5 +92,5 @@ jobs:
           git config user.email "ai-marketing-bot@users.noreply.github.com"
           git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
           git add data/ content/ || true
-          git diff --cached --quiet || git commit -m "chore: AI社員の実行結果を更新(分析・戦略・原稿)"
+          git diff --cached --quiet || git commit -m "chore: AI社員の実行結果を更新(分析・戦略・原稿・配信チェックリスト)"
           git push
