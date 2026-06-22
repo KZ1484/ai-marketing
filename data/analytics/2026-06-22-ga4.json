@@ -1,0 +1,134 @@
+{
+  "fetched_at": "2026-06-22T05:07:00.125Z",
+  "date_range": {
+    "start": "7daysAgo",
+    "end": "today"
+  },
+  "site_totals": {
+    "sessions": 148,
+    "activeUsers": 99,
+    "screenPageViews": 171
+  },
+  "top_pages": [
+    {
+      "pagePath": "/cara-membuat-appsheet-lebih-aman-untuk-digunakan-banyak-user/",
+      "sessions": 12,
+      "screenPageViews": 14,
+      "activeUsers": 2
+    },
+    {
+      "pagePath": "/",
+      "sessions": 11,
+      "screenPageViews": 11,
+      "activeUsers": 10
+    },
+    {
+      "pagePath": "/ja/appsheet-ambil-foto-dari-kamera-atau-galeri/",
+      "sessions": 9,
+      "screenPageViews": 10,
+      "activeUsers": 8
+    },
+    {
+      "pagePath": "/404/",
+      "sessions": 9,
+      "screenPageViews": 9,
+      "activeUsers": 2
+    },
+    {
+      "pagePath": "/ja/service/",
+      "sessions": 9,
+      "screenPageViews": 9,
+      "activeUsers": 1
+    },
+    {
+      "pagePath": "/ja/membuat-aplikasi-mudah-dari-spreadsheet-ke-appsheet/",
+      "sessions": 9,
+      "screenPageViews": 7,
+      "activeUsers": 5
+    },
+    {
+      "pagePath": "/ja/tips-membuat-aplikasi-stok-barang-dengan-appsheet/",
+      "sessions": 7,
+      "screenPageViews": 6,
+      "activeUsers": 6
+    },
+    {
+      "pagePath": "/aplikasi-ini-bisa-menggantikan-excel/",
+      "sessions": 6,
+      "screenPageViews": 6,
+      "activeUsers": 5
+    },
+    {
+      "pagePath": "/appsheet-vs-excel-mana-yang-lebih-baik-untuk-bisnis-anda/",
+      "sessions": 6,
+      "screenPageViews": 6,
+      "activeUsers": 6
+    },
+    {
+      "pagePath": "/berapa-biaya-sebenarnya-menggunakan-appsheet-untuk-perusahaan/",
+      "sessions": 6,
+      "screenPageViews": 6,
+      "activeUsers": 6
+    },
+    {
+      "pagePath": "/ja/pengertian-siber-apa-itu-dunia-siber-dan-mengapa-penting-untuk-dipahami/",
+      "sessions": 6,
+      "screenPageViews": 5,
+      "activeUsers": 5
+    },
+    {
+      "pagePath": "/jasa-pembuatan-appsheet-profesional-untuk-bisnis/",
+      "sessions": 5,
+      "screenPageViews": 5,
+      "activeUsers": 5
+    },
+    {
+      "pagePath": "/jasa-pembuatan-appsheet-untuk-bisnis-yang-lebih-efisien/",
+      "sessions": 5,
+      "screenPageViews": 5,
+      "activeUsers": 4
+    },
+    {
+      "pagePath": "/ja/contact/",
+      "sessions": 4,
+      "screenPageViews": 5,
+      "activeUsers": 1
+    },
+    {
+      "pagePath": "/ja/membuat-akun-google-dengan-alamat-email-organisasi-atau-perusahaan/",
+      "sessions": 4,
+      "screenPageViews": 4,
+      "activeUsers": 4
+    },
+    {
+      "pagePath": "/kesalahan-terbesar-saat-membuat-appsheet/",
+      "sessions": 4,
+      "screenPageViews": 4,
+      "activeUsers": 1
+    },
+    {
+      "pagePath": "/menampilkan-data-dinamis-dropdown-di-excel/",
+      "sessions": 4,
+      "screenPageViews": 4,
+      "activeUsers": 4
+    },
+    {
+      "pagePath": "/ja/home/",
+      "sessions": 3,
+      "screenPageViews": 4,
+      "activeUsers": 3
+    },
+    {
+      "pagePath": "/berapa-banyak-data-yang-bisa-ditangani-appsheet/",
+      "sessions": 4,
+      "screenPageViews": 3,
+      "activeUsers": 2
+    },
+    {
+      "pagePath": "/cara-menampilkan-format-tanggal-mmm-yy-di-appsheet/",
+      "sessions": 4,
+      "screenPageViews": 3,
+      "activeUsers": 3
+    }
+  ]
+}
