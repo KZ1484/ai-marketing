@@ -1,0 +1,134 @@
+{
+  "fetched_at": "2026-06-29T04:43:18.436Z",
+  "date_range": {
+    "start": "7daysAgo",
+    "end": "today"
+  },
+  "site_totals": {
+    "sessions": 118,
+    "activeUsers": 80,
+    "screenPageViews": 139
+  },
+  "top_pages": [
+    {
+      "pagePath": "/cara-membuat-appsheet-lebih-aman-untuk-digunakan-banyak-user/",
+      "sessions": 12,
+      "screenPageViews": 20,
+      "activeUsers": 2
+    },
+    {
+      "pagePath": "/ja/membuat-aplikasi-mudah-dari-spreadsheet-ke-appsheet/",
+      "sessions": 13,
+      "screenPageViews": 16,
+      "activeUsers": 8
+    },
+    {
+      "pagePath": "/",
+      "sessions": 9,
+      "screenPageViews": 9,
+      "activeUsers": 9
+    },
+    {
+      "pagePath": "/404/",
+      "sessions": 9,
+      "screenPageViews": 9,
+      "activeUsers": 1
+    },
+    {
+      "pagePath": "/menampilkan-data-dinamis-dropdown-di-excel/",
+      "sessions": 9,
+      "screenPageViews": 7,
+      "activeUsers": 7
+    },
+    {
+      "pagePath": "/appsheet-vs-excel-mana-yang-lebih-baik-untuk-bisnis-anda/",
+      "sessions": 6,
+      "screenPageViews": 7,
+      "activeUsers": 5
+    },
+    {
+      "pagePath": "/ja/grafik-laporan-canggih-dari-appsheet/",
+      "sessions": 6,
+      "screenPageViews": 6,
+      "activeUsers": 6
+    },
+    {
+      "pagePath": "/appsheet-untuk-crm-kelola-prospek-pelanggan-tanpa-software-mahal/",
+      "sessions": 5,
+      "screenPageViews": 5,
+      "activeUsers": 5
+    },
+    {
+      "pagePath": "/cara-membuat-aplikasi-invoice-po-tanpa-coding-dengan-appsheet/",
+      "sessions": 5,
+      "screenPageViews": 4,
+      "activeUsers": 4
+    },
+    {
+      "pagePath": "/slice-di-appsheet-tidak-bisa-menyaring-input/",
+      "sessions": 4,
+      "screenPageViews": 4,
+      "activeUsers": 0
+    },
+    {
+      "pagePath": "/ja/category/tutorial-appsheet/",
+      "sessions": 2,
+      "screenPageViews": 4,
+      "activeUsers": 2
+    },
+    {
+      "pagePath": "/ja/tips-membuat-aplikasi-stok-barang-dengan-appsheet/",
+      "sessions": 4,
+      "screenPageViews": 3,
+      "activeUsers": 3
+    },
+    {
+      "pagePath": "/cara-menampilkan-format-tanggal-mmm-yy-di-appsheet/",
+      "sessions": 3,
+      "screenPageViews": 3,
+      "activeUsers": 2
+    },
+    {
+      "pagePath": "/ja/appsheet-ambil-foto-dari-kamera-atau-galeri/",
+      "sessions": 3,
+      "screenPageViews": 3,
+      "activeUsers": 3
+    },
+    {
+      "pagePath": "/apakah-appsheet-gratis-bisa-menampung-lebih-dari-1-000-baris-data/",
+      "sessions": 2,
+      "screenPageViews": 2,
+      "activeUsers": 2
+    },
+    {
+      "pagePath": "/input-otomatis-dari-ai-langsung-ke-google-sheet/",
+      "sessions": 2,
+      "screenPageViews": 2,
+      "activeUsers": 2
+    },
+    {
+      "pagePath": "/ja/cara-membuat-mom-otomatis-dengan-notebook-lm/",
+      "sessions": 2,
+      "screenPageViews": 2,
+      "activeUsers": 2
+    },
+    {
+      "pagePath": "/ja/free-app/",
+      "sessions": 2,
+      "screenPageViews": 2,
+      "activeUsers": 2
+    },
+    {
+      "pagePath": "/ja/home/",
+      "sessions": 2,
+      "screenPageViews": 2,
+      "activeUsers": 2
+    },
+    {
+      "pagePath": "/ja/pembayaran-appsheet-pakai-gopay-ini-caranya/",
+      "sessions": 2,
+      "screenPageViews": 2,
+      "activeUsers": 2
+    }
+  ]
+}
