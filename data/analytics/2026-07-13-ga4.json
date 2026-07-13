@@ -1,0 +1,134 @@
+{
+  "fetched_at": "2026-07-13T03:35:32.662Z",
+  "date_range": {
+    "start": "7daysAgo",
+    "end": "today"
+  },
+  "site_totals": {
+    "sessions": 156,
+    "activeUsers": 136,
+    "screenPageViews": 176
+  },
+  "top_pages": [
+    {
+      "pagePath": "/cara-membuat-appsheet-lebih-aman-untuk-digunakan-banyak-user/",
+      "sessions": 6,
+      "screenPageViews": 16,
+      "activeUsers": 1
+    },
+    {
+      "pagePath": "/",
+      "sessions": 12,
+      "screenPageViews": 12,
+      "activeUsers": 12
+    },
+    {
+      "pagePath": "/ja/appsheet-ambil-foto-dari-kamera-atau-galeri/",
+      "sessions": 12,
+      "screenPageViews": 11,
+      "activeUsers": 10
+    },
+    {
+      "pagePath": "/ja/membuat-aplikasi-mudah-dari-spreadsheet-ke-appsheet/",
+      "sessions": 10,
+      "screenPageViews": 10,
+      "activeUsers": 9
+    },
+    {
+      "pagePath": "/citizen-developer-tren-baru-karyawan-non-it-bisa-bikin-aplikasi-sendiri/",
+      "sessions": 6,
+      "screenPageViews": 6,
+      "activeUsers": 6
+    },
+    {
+      "pagePath": "/ja/home/",
+      "sessions": 6,
+      "screenPageViews": 5,
+      "activeUsers": 3
+    },
+    {
+      "pagePath": "/404/",
+      "sessions": 5,
+      "screenPageViews": 5,
+      "activeUsers": 1
+    },
+    {
+      "pagePath": "/menampilkan-data-dinamis-dropdown-di-excel/",
+      "sessions": 5,
+      "screenPageViews": 5,
+      "activeUsers": 5
+    },
+    {
+      "pagePath": "/ja/pembayaran-appsheet-pakai-gopay-ini-caranya/",
+      "sessions": 4,
+      "screenPageViews": 5,
+      "activeUsers": 3
+    },
+    {
+      "pagePath": "/apakah-appsheet-gratis-bisa-menampung-lebih-dari-1-000-baris-data/",
+      "sessions": 4,
+      "screenPageViews": 4,
+      "activeUsers": 4
+    },
+    {
+      "pagePath": "/ja/pengertian-siber-apa-itu-dunia-siber-dan-mengapa-penting-untuk-dipahami/",
+      "sessions": 4,
+      "screenPageViews": 3,
+      "activeUsers": 3
+    },
+    {
+      "pagePath": "/ja/cara-membuat-mom-otomatis-dengan-notebook-lm/",
+      "sessions": 3,
+      "screenPageViews": 3,
+      "activeUsers": 3
+    },
+    {
+      "pagePath": "/ja/tips-membuat-aplikasi-stok-barang-dengan-appsheet/",
+      "sessions": 3,
+      "screenPageViews": 3,
+      "activeUsers": 3
+    },
+    {
+      "pagePath": "/jasa-pembuatan-appsheet-profesional-untuk-bisnis/",
+      "sessions": 3,
+      "screenPageViews": 3,
+      "activeUsers": 3
+    },
+    {
+      "pagePath": "/administrasi-surat-masih-manual/",
+      "sessions": 2,
+      "screenPageViews": 3,
+      "activeUsers": 2
+    },
+    {
+      "pagePath": "/tutorial-appsheet-membuat-notifikasi-email-whatsapp-otomatis/",
+      "sessions": 2,
+      "screenPageViews": 3,
+      "activeUsers": 2
+    },
+    {
+      "pagePath": "/cara-mempercepat-appsheet-yang-lemot-saat-data-banyak/",
+      "sessions": 2,
+      "screenPageViews": 2,
+      "activeUsers": 2
+    },
+    {
+      "pagePath": "/jasa-pembuatan-appsheet-untuk-bisnis-yang-lebih-efisien/",
+      "sessions": 2,
+      "screenPageViews": 2,
+      "activeUsers": 2
+    },
+    {
+      "pagePath": "/kenapa-appsheet-sering-lemot-saat-data-mulai-banyak/",
+      "sessions": 2,
+      "screenPageViews": 2,
+      "activeUsers": 2
+    },
+    {
+      "pagePath": "/slice-di-appsheet-tidak-bisa-menyaring-input/",
+      "sessions": 2,
+      "screenPageViews": 2,
+      "activeUsers": 2
+    }
+  ]
+}
