@@ -1,0 +1,134 @@
+{
+  "fetched_at": "2026-07-27T03:42:16.028Z",
+  "date_range": {
+    "start": "7daysAgo",
+    "end": "today"
+  },
+  "site_totals": {
+    "sessions": 152,
+    "activeUsers": 126,
+    "screenPageViews": 163
+  },
+  "top_pages": [
+    {
+      "pagePath": "/",
+      "sessions": 13,
+      "screenPageViews": 14,
+      "activeUsers": 13
+    },
+    {
+      "pagePath": "/tutorial-appsheet-cara-membuat-dashboard-laporan/",
+      "sessions": 10,
+      "screenPageViews": 10,
+      "activeUsers": 9
+    },
+    {
+      "pagePath": "/ja/appsheet-ambil-foto-dari-kamera-atau-galeri/",
+      "sessions": 8,
+      "screenPageViews": 9,
+      "activeUsers": 7
+    },
+    {
+      "pagePath": "/google-workspace-appsheet-kombinasi-terbaik/",
+      "sessions": 8,
+      "screenPageViews": 8,
+      "activeUsers": 8
+    },
+    {
+      "pagePath": "/appsheet-sebagai-solusi-digitalisasi-tanpa-kompleksitas-it/",
+      "sessions": 7,
+      "screenPageViews": 8,
+      "activeUsers": 7
+    },
+    {
+      "pagePath": "/ja/cara-tampilkan-data-dengan-grafik-di-appsheet/",
+      "sessions": 7,
+      "screenPageViews": 8,
+      "activeUsers": 4
+    },
+    {
+      "pagePath": "/ja/cara-menghasilkan-pdf-dari-aplikasi-appsheet/",
+      "sessions": 8,
+      "screenPageViews": 7,
+      "activeUsers": 4
+    },
+    {
+      "pagePath": "/ja/pengertian-siber-apa-itu-dunia-siber-dan-mengapa-penting-untuk-dipahami/",
+      "sessions": 7,
+      "screenPageViews": 6,
+      "activeUsers": 4
+    },
+    {
+      "pagePath": "/404/",
+      "sessions": 6,
+      "screenPageViews": 6,
+      "activeUsers": 1
+    },
+    {
+      "pagePath": "/menampilkan-data-dinamis-dropdown-di-excel/",
+      "sessions": 6,
+      "screenPageViews": 6,
+      "activeUsers": 6
+    },
+    {
+      "pagePath": "/aplikasi-ini-bisa-menggantikan-excel/",
+      "sessions": 5,
+      "screenPageViews": 4,
+      "activeUsers": 4
+    },
+    {
+      "pagePath": "/ja/cara-membuat-mom-otomatis-dengan-notebook-lm/",
+      "sessions": 5,
+      "screenPageViews": 4,
+      "activeUsers": 4
+    },
+    {
+      "pagePath": "/ja/grafik-laporan-canggih-dari-appsheet/",
+      "sessions": 5,
+      "screenPageViews": 4,
+      "activeUsers": 4
+    },
+    {
+      "pagePath": "/cara-menampilkan-format-tanggal-mmm-yy-di-appsheet/",
+      "sessions": 3,
+      "screenPageViews": 4,
+      "activeUsers": 3
+    },
+    {
+      "pagePath": "/ja/service/",
+      "sessions": 3,
+      "screenPageViews": 4,
+      "activeUsers": 1
+    },
+    {
+      "pagePath": "/ja/home/",
+      "sessions": 3,
+      "screenPageViews": 3,
+      "activeUsers": 3
+    },
+    {
+      "pagePath": "/ja/tips-membuat-aplikasi-stok-barang-dengan-appsheet/",
+      "sessions": 3,
+      "screenPageViews": 3,
+      "activeUsers": 2
+    },
+    {
+      "pagePath": "/tutorial-appsheet-membuat-notifikasi-email-whatsapp-otomatis/",
+      "sessions": 3,
+      "screenPageViews": 3,
+      "activeUsers": 3
+    },
+    {
+      "pagePath": "/jasa-pembuatan-appsheet-untuk-bisnis-yang-lebih-efisien/",
+      "sessions": 2,
+      "screenPageViews": 3,
+      "activeUsers": 2
+    },
+    {
+      "pagePath": "/ja/membuat-aplikasi-mudah-dari-spreadsheet-ke-appsheet/",
+      "sessions": 3,
+      "screenPageViews": 2,
+      "activeUsers": 2
+    }
+  ]
+}
