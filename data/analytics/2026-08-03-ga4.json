@@ -1,0 +1,134 @@
+{
+  "fetched_at": "2026-08-03T03:34:25.890Z",
+  "date_range": {
+    "start": "7daysAgo",
+    "end": "today"
+  },
+  "site_totals": {
+    "sessions": 143,
+    "activeUsers": 114,
+    "screenPageViews": 172
+  },
+  "top_pages": [
+    {
+      "pagePath": "/",
+      "sessions": 12,
+      "screenPageViews": 13,
+      "activeUsers": 12
+    },
+    {
+      "pagePath": "/tutorial-appsheet-cara-membuat-dashboard-laporan/",
+      "sessions": 13,
+      "screenPageViews": 12,
+      "activeUsers": 8
+    },
+    {
+      "pagePath": "/ja/appsheet-ambil-foto-dari-kamera-atau-galeri/",
+      "sessions": 12,
+      "screenPageViews": 12,
+      "activeUsers": 9
+    },
+    {
+      "pagePath": "/404/",
+      "sessions": 7,
+      "screenPageViews": 7,
+      "activeUsers": 1
+    },
+    {
+      "pagePath": "/menampilkan-data-dinamis-dropdown-di-excel/",
+      "sessions": 8,
+      "screenPageViews": 5,
+      "activeUsers": 5
+    },
+    {
+      "pagePath": "/appsheet-untuk-sales-customer-management/",
+      "sessions": 5,
+      "screenPageViews": 5,
+      "activeUsers": 5
+    },
+    {
+      "pagePath": "/ja/category/tutorial-appsheet/",
+      "sessions": 5,
+      "screenPageViews": 5,
+      "activeUsers": 5
+    },
+    {
+      "pagePath": "/ja/grafik-laporan-canggih-dari-appsheet/",
+      "sessions": 5,
+      "screenPageViews": 5,
+      "activeUsers": 5
+    },
+    {
+      "pagePath": "/ja/tips-membuat-aplikasi-stok-barang-dengan-appsheet/",
+      "sessions": 5,
+      "screenPageViews": 4,
+      "activeUsers": 4
+    },
+    {
+      "pagePath": "/administrasi-surat-masih-manual/",
+      "sessions": 4,
+      "screenPageViews": 4,
+      "activeUsers": 4
+    },
+    {
+      "pagePath": "/gunakan-fitur-scanner-di-appsheet-praktis-tanpa-coding/",
+      "sessions": 3,
+      "screenPageViews": 4,
+      "activeUsers": 3
+    },
+    {
+      "pagePath": "/service-2/",
+      "sessions": 3,
+      "screenPageViews": 4,
+      "activeUsers": 2
+    },
+    {
+      "pagePath": "/kenapa-pekerjaan-terasa-lambat/",
+      "sessions": 1,
+      "screenPageViews": 4,
+      "activeUsers": 1
+    },
+    {
+      "pagePath": "/cara-membuat-appsheet-lebih-aman-untuk-digunakan-banyak-user/",
+      "sessions": 4,
+      "screenPageViews": 3,
+      "activeUsers": 1
+    },
+    {
+      "pagePath": "/cara-menghindari-data-di-appsheet-sering-tidak-sinkron/",
+      "sessions": 4,
+      "screenPageViews": 3,
+      "activeUsers": 3
+    },
+    {
+      "pagePath": "/jasa-pembuatan-appsheet-profesional-untuk-bisnis/",
+      "sessions": 4,
+      "screenPageViews": 3,
+      "activeUsers": 3
+    },
+    {
+      "pagePath": "/apakah-appsheet-gratis-bisa-menampung-lebih-dari-1-000-baris-data/",
+      "sessions": 3,
+      "screenPageViews": 3,
+      "activeUsers": 3
+    },
+    {
+      "pagePath": "/cara-membatasi-edit-delete-data-berdasarkan-status-proses-di-appsheet/",
+      "sessions": 3,
+      "screenPageViews": 3,
+      "activeUsers": 3
+    },
+    {
+      "pagePath": "/ja/aplikasi-approval-di-appsheet/",
+      "sessions": 3,
+      "screenPageViews": 3,
+      "activeUsers": 2
+    },
+    {
+      "pagePath": "/ja/google-workspace-training/",
+      "sessions": 3,
+      "screenPageViews": 3,
+      "activeUsers": 2
+    }
+  ]
+}
