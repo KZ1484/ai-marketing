@@ -1,0 +1,134 @@
+{
+  "fetched_at": "2026-08-10T02:16:16.173Z",
+  "date_range": {
+    "start": "7daysAgo",
+    "end": "today"
+  },
+  "site_totals": {
+    "sessions": 114,
+    "activeUsers": 98,
+    "screenPageViews": 123
+  },
+  "top_pages": [
+    {
+      "pagePath": "/",
+      "sessions": 12,
+      "screenPageViews": 12,
+      "activeUsers": 10
+    },
+    {
+      "pagePath": "/tutorial-appsheet-cara-membuat-dashboard-laporan/",
+      "sessions": 11,
+      "screenPageViews": 10,
+      "activeUsers": 8
+    },
+    {
+      "pagePath": "/ja/appsheet-ambil-foto-dari-kamera-atau-galeri/",
+      "sessions": 7,
+      "screenPageViews": 7,
+      "activeUsers": 7
+    },
+    {
+      "pagePath": "/tutorial-appsheet-membuat-notifikasi-email-whatsapp-otomatis/",
+      "sessions": 6,
+      "screenPageViews": 4,
+      "activeUsers": 4
+    },
+    {
+      "pagePath": "/aplikasi-ini-bisa-menggantikan-excel/",
+      "sessions": 4,
+      "screenPageViews": 4,
+      "activeUsers": 4
+    },
+    {
+      "pagePath": "/menampilkan-data-dinamis-dropdown-di-excel/",
+      "sessions": 4,
+      "screenPageViews": 4,
+      "activeUsers": 4
+    },
+    {
+      "pagePath": "/google-workspace-appsheet-kombinasi-terbaik/",
+      "sessions": 3,
+      "screenPageViews": 4,
+      "activeUsers": 2
+    },
+    {
+      "pagePath": "/ja/cara-membuat-mom-otomatis-dengan-notebook-lm/",
+      "sessions": 4,
+      "screenPageViews": 3,
+      "activeUsers": 3
+    },
+    {
+      "pagePath": "/aplikasi-manajemen-lembur-karyawan-dengan-appsheet/",
+      "sessions": 3,
+      "screenPageViews": 3,
+      "activeUsers": 3
+    },
+    {
+      "pagePath": "/cara-menampilkan-format-tanggal-mmm-yy-di-appsheet/",
+      "sessions": 3,
+      "screenPageViews": 3,
+      "activeUsers": 3
+    },
+    {
+      "pagePath": "/ja/home/",
+      "sessions": 3,
+      "screenPageViews": 3,
+      "activeUsers": 3
+    },
+    {
+      "pagePath": "/ja/tips-dan-strategi-membuat-database-dengan-1-juta-data/",
+      "sessions": 3,
+      "screenPageViews": 3,
+      "activeUsers": 3
+    },
+    {
+      "pagePath": "/kenapa-appsheet-sering-lemot-saat-data-mulai-banyak/",
+      "sessions": 3,
+      "screenPageViews": 3,
+      "activeUsers": 3
+    },
+    {
+      "pagePath": "/ja/grafik-laporan-canggih-dari-appsheet/",
+      "sessions": 2,
+      "screenPageViews": 3,
+      "activeUsers": 2
+    },
+    {
+      "pagePath": "/ja/komputer-pertama-eniac/",
+      "sessions": 2,
+      "screenPageViews": 3,
+      "activeUsers": 2
+    },
+    {
+      "pagePath": "/apakah-appsheet-gratis-bisa-menampung-lebih-dari-1-000-baris-data/",
+      "sessions": 3,
+      "screenPageViews": 2,
+      "activeUsers": 2
+    },
+    {
+      "pagePath": "/ja/cara-menghasilkan-pdf-dari-aplikasi-appsheet/",
+      "sessions": 3,
+      "screenPageViews": 2,
+      "activeUsers": 2
+    },
+    {
+      "pagePath": "/ja/membuat-aplikasi-mudah-dari-spreadsheet-ke-appsheet/",
+      "sessions": 3,
+      "screenPageViews": 2,
+      "activeUsers": 2
+    },
+    {
+      "pagePath": "/404/",
+      "sessions": 2,
+      "screenPageViews": 2,
+      "activeUsers": 1
+    },
+    {
+      "pagePath": "/appsheet-untuk-perusahaan-manufaktur/",
+      "sessions": 2,
+      "screenPageViews": 2,
+      "activeUsers": 2
+    }
+  ]
+}
